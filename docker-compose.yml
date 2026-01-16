@@ -18,7 +18,7 @@ services:
 
   # Servicio del Frontend (React)
   frontend:
-    build: ./client
+    build: ./frontend/client
     container_name: boda-frontend
     ports:
       - "80:80"
