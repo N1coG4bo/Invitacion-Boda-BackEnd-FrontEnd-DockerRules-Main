@@ -13,7 +13,7 @@ services:
       - TNS_ADMIN=/app/wallet
     volumes:
       # Aquí conectaremos la Wallet real del servidor al contenedor
-      - ./wallet_auth:/app/wallet
+      - ./wallet/Wallet_bodaDB:/app/wallet
     restart: always
 
   # Servicio del Frontend (React)
